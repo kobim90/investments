@@ -1,0 +1,24 @@
+1. clone the reposetry
+
+db:
+1. open mySql workbanch
+2. go to server -> data import
+3. check the "import from self-contained file"
+4. choose file investments_db.sql
+5. click start import
+6. refresh the SCHEMA side bar
+#if your having problem with investments_db not working properly
+use the create investments DB.sql script to recreate the db
+and insert into tables.sql to fill the DB.
+
+backend:
+1. open file confige/db.config
+2. change the values to math your db cradentials and save
+3. open a terminal inside backend folder
+4. run npm install
+5. once done write in terminal npm start
+
+fronend:
+1.open terminal inside frontend folder
+2. run npm install
+3. once done run npm start
